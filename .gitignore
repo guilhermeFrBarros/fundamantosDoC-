@@ -1,22 +1,22 @@
-# Ignore build results
-bin/
-obj/
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
 
-# Ignore user-specific files
+# Visual Studio
+.vscode/
+.vs/
+
+# User-specific files
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# Ignore Visual Studio files
-.vscode/
-.vs/
-
-# Ignore test results
-TestResults/
-
-# Ignore logs
-*.log
-
-# Ignore temporary files
-*.tmp
+# Test results
+[Tt]est[Rr]esult*/
