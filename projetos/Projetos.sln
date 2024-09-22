@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpolacaoDeStrings", "InterpolacaoDeStrings\InterpolacaoDeStrings.csproj", "{6E14FEB8-3B11-48D5-A54F-DDAA4F809982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guids", "Guids\Guids.csproj", "{DA6355C5-5127-421E-9CE7-4530A798A91F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projeT", "projeT\projeT.csproj", "{C48B63C0-7F7E-41A4-A457-2052983BDBFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E14FEB8-3B11-48D5-A54F-DDAA4F809982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E14FEB8-3B11-48D5-A54F-DDAA4F809982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E14FEB8-3B11-48D5-A54F-DDAA4F809982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E14FEB8-3B11-48D5-A54F-DDAA4F809982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6355C5-5127-421E-9CE7-4530A798A91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6355C5-5127-421E-9CE7-4530A798A91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6355C5-5127-421E-9CE7-4530A798A91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6355C5-5127-421E-9CE7-4530A798A91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48B63C0-7F7E-41A4-A457-2052983BDBFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48B63C0-7F7E-41A4-A457-2052983BDBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48B63C0-7F7E-41A4-A457-2052983BDBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48B63C0-7F7E-41A4-A457-2052983BDBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
