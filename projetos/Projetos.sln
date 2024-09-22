@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guids", "Guids\Guids.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projeT", "projeT\projeT.csproj", "{C48B63C0-7F7E-41A4-A457-2052983BDBFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparacaoString", "ComparacaoString\ComparacaoString.csproj", "{7C76D440-792E-40DD-910F-D7F7AEEFCD5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{C48B63C0-7F7E-41A4-A457-2052983BDBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C48B63C0-7F7E-41A4-A457-2052983BDBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C48B63C0-7F7E-41A4-A457-2052983BDBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C76D440-792E-40DD-910F-D7F7AEEFCD5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C76D440-792E-40DD-910F-D7F7AEEFCD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C76D440-792E-40DD-910F-D7F7AEEFCD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C76D440-792E-40DD-910F-D7F7AEEFCD5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
