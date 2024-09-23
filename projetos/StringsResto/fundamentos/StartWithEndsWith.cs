@@ -10,6 +10,7 @@ namespace fundamentos
         internal static void StartWithEndsWithExec()
         {
             var texto = "Este texto é um teste";
+            Console.WriteLine(texto.StartsWith("E"));// True
             Console.WriteLine(texto.StartsWith("Este"));// True
             Console.WriteLine(texto.StartsWith("este"));// False
             Console.WriteLine(texto.StartsWith("este", StringComparison.OrdinalIgnoreCase));// True
