@@ -18,9 +18,6 @@ namespace StringsResto
             Console.WriteLine(texto.EndsWith("teste"));// True
             Console.WriteLine(texto.EndsWith("Teste"));// False
             Console.WriteLine(texto.EndsWith("xpox"));// False
-
-
-
         }
     }
 }
