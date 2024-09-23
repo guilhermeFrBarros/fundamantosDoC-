@@ -1,9 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using StringsResto;
-
+using fundamentos;
 namespace StringsResto
 {
     public class NewClass
