@@ -2,7 +2,7 @@ using System;
 
 namespace EditorHtml
 {
-    public class Menu()
+    public class Menu
     {
         public void Show()
         {
@@ -10,31 +10,51 @@ namespace EditorHtml
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.Black;
             DrawScreen();
+            WriteOptions();
+
+            var option = short.Parse(Console.ReadLine());
         }
 
-        public void DrawScreen(int tamanhoColunas = 30, int tamanholinha = 10)
+        public void DrawScreen(int tamanhoLinha = 30, int tamanhoColuna = 10)
         {
-            ConstruirLinha(tamanhoColunas);
-            ConstruirColuna(tamanholinha);
-
-            ConstruirLinha(tamanhoColunas);
+            ConstruirLinha(tamanhoLinha);
+            ConstruirColunas(tamanhoColuna, tamanhoLinha);
+            ConstruirLinha(tamanhoLinha);
         }
 
-        private void ConstruirColuna(int tamanholinha)
+        public void WriteOptions()
         {
-            for (int lines = 0; lines <= tamanholinha; lines++)
+            Console.SetCursorPosition(3, 0);
+            Console.WriteLine("Editor HTML");
+            Console.SetCursorPosition(3, 1);
+            Console.WriteLine("===========");
+            Console.SetCursorPosition(3, 3);
+            Console.WriteLine("Selecione a Opção abaixo");
+            Console.SetCursorPosition(3, 5);
+            Console.WriteLine("1 - Novo Arquivo");
+            Console.SetCursorPosition(3, 6);
+            Console.WriteLine("2 - Abrir");
+            Console.SetCursorPosition(3, 7);
+            Console.WriteLine("0 - Sair");
+            Console.SetCursorPosition(3, 9);
+            Console.Write("Opção: ");
+        }
+
+        private void ConstruirColunas(int tamanhoColuna, int tamanhoLinha)
+        {
+            for (int lines = 0; lines <= tamanhoColuna; lines++)
             {
                 Console.Write("|");
-                for (int i = 0; i <= 30; i++) Console.Write(" ");
+                for (int i = 0; i <= tamanhoLinha; i++) Console.Write(" ");
                 Console.Write("|");
                 Console.Write("\n");
             }
         }
 
-        private void ConstruirLinha(int tamanhoColunas)
+        private void ConstruirLinha(int tamanhoLinha)
         {
             Console.Write("+");
-            for (int i = 0; i <= tamanhoColunas; i++) Console.Write("-");
+            for (int i = 0; i <= tamanhoLinha; i++) Console.Write("-");
 
             Console.Write("+");
             Console.Write("\n");
