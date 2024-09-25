@@ -13,6 +13,7 @@ namespace EditorHtml
             WriteOptions();
 
             var option = short.Parse(Console.ReadLine());
+            HandleMenuOption(option);
         }
 
         public void DrawScreen(int tamanhoLinha = 30, int tamanhoColuna = 10)
@@ -38,6 +39,22 @@ namespace EditorHtml
             Console.WriteLine("0 - Sair");
             Console.SetCursorPosition(3, 9);
             Console.Write("Opção: ");
+        }
+
+        public void HandleMenuOption(short option)
+        {
+            switch (option)
+            {
+                case 1: Console.WriteLine("Editor"); break;
+                case 2: Console.WriteLine("View"); break;
+                case 0:
+                    {
+                        Console.Clear();
+                        Environment.Exit(0);
+                        break;
+                    }
+                default: Show(); break;
+            }
         }
 
         private void ConstruirColunas(int tamanhoColuna, int tamanhoLinha)
