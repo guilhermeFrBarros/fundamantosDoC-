@@ -43,9 +43,10 @@ namespace EditorHtml
 
         public void HandleMenuOption(short option)
         {
+            Editor editor = new Editor();
             switch (option)
             {
-                case 1: Console.WriteLine("Editor"); break;
+                case 1: editor.Show(); break;
                 case 2: Console.WriteLine("View"); break;
                 case 0:
                     {
