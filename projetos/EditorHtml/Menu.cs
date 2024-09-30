@@ -51,7 +51,9 @@ namespace EditorHtml
                 case 0:
                     {
                         Console.Clear();
+                        Console.ResetColor();
                         Environment.Exit(0);
+
                         break;
                     }
                 default: Show(); break;
