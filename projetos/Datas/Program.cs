@@ -12,5 +12,22 @@ Console.Clear();
 // var dataValores = new ObterValoresData();
 // dataValores.ValoresData();
 
-var data2 = new FormatacaoDeData();
-data2.FormatacaoDeDataMe();
+// var data2 = new FormatacaoDeData();
+// data2.FormatacaoDeDataMe();
+// var data3 = new PadroesDeFormatacao();
+// data3.PadroesDeFormatacaoM();
+
+// var data4 = new AdicionandoValores();
+// data4.AdicionandoValoresMe();
+
+// var data5 = new ComparnadoDatas();
+// data5.ComparnadoDatasM();
+
+// var data6 = new GlobalizacaoDeDatas();
+// data6.GlobalizacaoDeDatasM();
+
+// var data7 = new TimeZoneEstudo();
+// data7.TimeZoneMet();
+
+var timeSpanEstudo = new TimeSpanEstudo();
+timeSpanEstudo.TimeSpanMetodo();
