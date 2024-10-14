@@ -29,5 +29,8 @@ Console.Clear();
 // var data7 = new TimeZoneEstudo();
 // data7.TimeZoneMet();
 
-var timeSpanEstudo = new TimeSpanEstudo();
-timeSpanEstudo.TimeSpanMetodo();
+// var timeSpanEstudo = new TimeSpanEstudo();
+// timeSpanEstudo.TimeSpanMetodo();
+
+MetodoMuitoUltilizados metodoMuitoUltilizados = new MetodoMuitoUltilizados();
+metodoMuitoUltilizados.metodo();
