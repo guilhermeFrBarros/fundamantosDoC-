@@ -9,7 +9,7 @@ namespace ArraysEstudo.ClassEstudos
             var meuArray = new int[5] { 1, 2, 3, 4, 5 };
             meuArray[0] = 12;
 
-            Console.WriteLine(meuArray.Length);
+            Console.WriteLine("For normal -----");
 
             for (var index = 0; index < meuArray.Length; index++)
             {
@@ -19,6 +19,11 @@ namespace ArraysEstudo.ClassEstudos
             // Serve para clonar o array, pois é uma referenceType
             var meuArrayCopia = (int[])meuArray.Clone();
             meuArrayCopia[1] = 8;
+            Console.WriteLine("---- Foreach -------");
+            foreach (var e in meuArrayCopia)
+            {
+                Console.WriteLine(e);
+            }
 
             // Imprime os elementos do array original
             Console.WriteLine("Array original: " + string.Join(", ", meuArray));
