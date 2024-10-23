@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moedas", "Moedas\Moedas.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysEstudo", "ArraysEstudo\ArraysEstudo.csproj", "{FC5EC2D0-BFE3-4BE6-A3E5-A0F235F8B1F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionEstudos", "ExceptionEstudos\ExceptionEstudos.csproj", "{BADB7A70-8E87-4820-88EF-64275B72D279}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{FC5EC2D0-BFE3-4BE6-A3E5-A0F235F8B1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC5EC2D0-BFE3-4BE6-A3E5-A0F235F8B1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC5EC2D0-BFE3-4BE6-A3E5-A0F235F8B1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BADB7A70-8E87-4820-88EF-64275B72D279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADB7A70-8E87-4820-88EF-64275B72D279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADB7A70-8E87-4820-88EF-64275B72D279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADB7A70-8E87-4820-88EF-64275B72D279}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
